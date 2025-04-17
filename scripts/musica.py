@@ -21,8 +21,3 @@ class MusicaPremium(Musica):
 
     def tocar(self):
         return f"Tocando {self.titulo} de {self.artista} em {self.qualide}"
-
-
-mp = MusicaPremium("Qual mentira vou acreditar", "Racionais", 8, "230kbps")
-
-print(mp.tocar())

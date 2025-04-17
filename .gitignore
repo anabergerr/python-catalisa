@@ -1,0 +1,47 @@
+# Arquivos gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+dist/
+build/
+eggs/
+.egg-info/
+venv/
+env/
+*.manifest
+
+# Arquivos de desenvolvimento e testes
+*.log
+*.db
+*.sqlite
+instance/
+nosetests.xml
+coverage.xml
+.coverage
+.tox
+.pytest_cache/
+
+# Arquivos de distribuição
+*.whl
+*.tar.gz
+sdist/
+
+# Arquivos específicos do ambiente
+.DS_Store
+.env
+.venv
+*.swp
+*.bak
+*.tmp
+
+# Arquivos de ferramentas de desenvolvimento (opcional)
+.vscode/
+.idea/
+.ropeproject/
+.pylintrc
+.flake8
+my_app.spec  # Se você usa PyInstaller
+
+# Outros arquivos específicos do projeto (adicione conforme necessário)
+# data/
+# logs/
